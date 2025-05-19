@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(WhatsApp\ Image\ 2024-07-24\ at\ 08.16.42_685342d9.jpg); 
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.667);
+    background-blend-mode: darken;
+}
+
+.head{
+    color: red;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;   
+    margin-bottom: 200px;
+}
+
+.head button{
+    border-radius: 10px;
+    width: fit-content;
+    padding: 8px 17px;
+    background-color: red;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.sub-body{
+    display: flex;
+    gap: 5px;
+}
+
+.sub-body button{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 12px;
+    border-style: none;
+}
+
+input{
+    background-color: transparent;
+    padding: 12px 70px;
+    border-style: groove;
+}
+
+.section1{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.section2{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    align-items: center;
+}
+
+.section3{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.section4{
+    background-color: black;
+    display: flex;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    align-items: center;
+}
+
+.faq{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    list-style: none;
+
+}
+.faq h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+
+.but button{
+    width: 700px;
+    text-align: left;
+    padding-left: 20px;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    border-style: none;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+}
+
+.faq p{
+    margin: 10px 0;
+}
+
+.footer button{
+    border-radius: 10px;
+    width: fit-content;
+    padding: 8px 17px;
+    background-color: red;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.foot{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+a{
+    color:rgb(132, 129, 129) ;
+}
+.foot1 button{
+    width: fit-content;
+    padding: 0 50px;
+    background-color:transparent;
+    border-color: rgb(132, 129, 129);
+    color: rgb(132, 129, 129);
+    border-style: groove;
+}
+
+.foot2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
